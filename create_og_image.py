@@ -90,7 +90,7 @@ def create_og_image():
     draw.text((text_center_x - h_w // 2, 126), holy, font=ImageFont.truetype("C:/Windows/Fonts/georgia.ttf", 14), fill=(140, 100, 60))
 
     # Groom Name
-    groom = "Dr. Alan Anand"
+    groom = "Dr Alan Anand"
     g_box = draw.textbbox((0, 0), groom, font=font_cinzel_large)
     g_w = g_box[2] - g_box[0]
     draw.text((text_center_x - g_w // 2, 170), groom, font=font_cinzel_large, fill=(58, 26, 32))
@@ -102,7 +102,7 @@ def create_og_image():
     draw.text((text_center_x - a_w // 2, 235), amp, font=font_ampersand, fill=(185, 135, 50))
 
     # Bride Name
-    bride = "Dr. Navya S. Daniel"
+    bride = "Dr Navya S. Daniel"
     b_box = draw.textbbox((0, 0), bride, font=font_cinzel_large)
     b_w = b_box[2] - b_box[0]
     draw.text((text_center_x - b_w // 2, 290), bride, font=font_cinzel_large, fill=(58, 26, 32))
